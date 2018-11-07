@@ -28,10 +28,10 @@ procedure TForm1.Button1Click(Sender: TObject);
 var a: array [0..10] of integer;
     i, min:integer;
 begin
-    a[0]:=random(50);
+    a[0]:=random(100);
     for i:=1 to 10 do
      begin
-      a[i]:=random(50);
+      a[i]:=random(100);
       if a[i]<min then
         min:=a[i];
      end;
